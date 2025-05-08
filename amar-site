@@ -1,0 +1,168 @@
+index.html<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A.M.A.R. - Associação de Marinheiros de Angra e Região</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f6fa;
+      color: #333;
+    }
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .cta-button {
+      background-color: #ffcc00;
+      color: #004aad;
+      padding: 12px 24px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #ffe680;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #004aad;
+    }
+    .benefits, .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .benefits li, .steps li {
+      background: #ffffff;
+      padding: 15px;
+      border-left: 5px solid #004aad;
+      border-radius: 5px;
+      list-style: none;
+    }
+    form {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-top: 30px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #004aad;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background: #002b5c;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>A.M.A.R.</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#como">Como se Associar</a>
+    <a href="#cadastro">Associe-se</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>O Seu Futuro é Agora!</h1>
+  <p>Junte-se à A.M.A.R. — Associação de Marinheiros de Angra e Região e fortaleça sua carreira com representatividade, benefícios e oportunidades reais.</p>
+  <a class="cta-button" href="#cadastro">Quero Me Associar</a>
+</div>
+
+<section id="sobre">
+  <h2>Quem Somos</h2>
+  <p>A A.M.A.R. nasceu com o objetivo de representar os marinheiros de esporte e recreio de Angra dos Reis, Paraty e Mangaratiba. Lutamos por direitos, formação, convênios e valorização da nossa profissão.</p>
+</section>
+
+<section id="beneficios">
+  <h2>Benefícios para Associados</h2>
+  <ul class="benefits">
+    <li>Participação ativa em decisões e votações.</li>
+    <li>Convênios com farmácias, mercados, escolas e serviços náuticos.</li>
+    <li>Acesso a plataforma de streaming com filmes, séries, canais esportivos e muito mais.</li>
+    <li>Carteirinha digital de associado com QR Code.</li>
+    <li>Representatividade política e jurídica.</li>
+  </ul>
+</section>
+
+<section id="como">
+  <h2>Como se Associar</h2>
+  <ul class="steps">
+    <li>1️⃣ Preencha o formulário abaixo com seus dados.</li>
+    <li>2️⃣ Nossa equipe entrará em contato via WhatsApp.</li>
+    <li>3️⃣ Você receberá a carteirinha digital e acesso aos benefícios.</li>
+  </ul>
+</section>
+
+<section id="cadastro">
+  <h2>Formulário de Associação</h2>
+  <form name="cadastro-associado">
+    <input type="text" name="nome" placeholder="Nome completo" required />
+    <input type="text" name="telefone" placeholder="WhatsApp" required />
+    <input type="email" name="email" placeholder="E-mail" />
+    <input type="text" name="cidade" placeholder="Cidade" />
+    <textarea name="mensagem" placeholder="Mensagem (opcional)"></textarea>
+    <button type="submit">Enviar Cadastro</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 A.M.A.R. - Associação de Marinheiros de Angra e Região<br/>
+  Contato: amar.angra@gmail.com | WhatsApp: (24) 99999-9999</p>
+</footer>
+
+</body>
+</html>
