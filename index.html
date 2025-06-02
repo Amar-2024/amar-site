@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -21,7 +20,9 @@
     .box-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
     .box { background: white; padding: 1.5rem; border-left: 6px solid #003366; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
     .quote { font-style: italic; text-align: center; margin: 2rem auto; color: #334155; }
-    .parceiros img { max-width: 100px; margin: 10px; }
+    .parceiros { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px; margin-top: 20px; }
+    .parceiros a img { max-width: 100px; height: auto; transition: transform 0.2s ease; }
+    .parceiros a:hover img { transform: scale(1.1); }
     .cta { background: #2563eb; color: white; text-align: center; padding: 2rem; margin-top: 2rem; border-radius: 12px; }
     .cta a { background: white; color: #2563eb; padding: 0.7rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem; display: inline-block; }
     footer { background: #1e293b; color: white; text-align: center; padding: 2rem; margin-top: 2rem; }
@@ -65,12 +66,14 @@
   <section id="parceiros">
     <h2>Nossos Parceiros</h2>
     <div class="parceiros">
-      <img src="https://amar-2024.github.io/amar-site/assets/tatais.png" alt="Extinbater"/>
-      <img src="https://amar-2024.github.io/amar-site/assets/fersan.png" alt="Fersan"/>
-      <img src="https://amar-2024.github.io/amar-site/assets/pantanal.png" alt="Pantanal"/>
-      <img src="https://amar-2024.github.io/amar-site/assets/impactocorp.png" alt="ImpactoCorp"/>
-      <img src="https://amar-2024.github.io/amar-site/assets/coqueiro.png" alt="Coqueiro Verde"/>
-      <img src="https://amar-2024.github.io/amar-site/assets/alex.png" alt="Alex Zenatt"/>
+      <a href="https://www.instagram.com/stories/fersanembalagem/" target="_blank"><img src="assets/fersan.png" alt="Fersan Embalagens"></a>
+      <a href="https://www.instagram.com/extimbater/" target="_blank"><img src="assets/extinbater.png" alt="Extinbater"></a>
+      <a href="https://www.instagram.com/despachantealexzenatti/" target="_blank"><img src="assets/alex.png" alt="Despachante Alex Zenatti"></a>
+      <a href="https://www.instagram.com/acouguepantanalcentro/" target="_blank"><img src="assets/pantanal.png" alt="Açougue Pantanal"></a>
+      <a href="https://www.instagram.com/coqueiroverde_ilhagrande/" target="_blank"><img src="assets/coqueiro.png" alt="Coqueiro Verde"></a>
+      <a href="https://www.instagram.com/grupo.impacto.corporativo/" target="_blank"><img src="assets/impactocorp.png" alt="Impacto Corporativo"></a>
+      <a href="https://www.instagram.com/borgesbarbershops/" target="_blank"><img src="assets/borges.png" alt="Borges Barber Shop"></a>
+      <a href="https://www.instagram.com/empadas_da_ho/" target="_blank"><img src="assets/empadas.png" alt="Empadas da Hô"></a>
     </div>
   </section>
   <section class="cta" id="contato">
